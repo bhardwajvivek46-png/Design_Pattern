@@ -1,0 +1,9 @@
+package com.solid_principals.OpenCloseService;
+
+public class UpiService implements PaymentService{
+
+    @Override
+    public void processPayment() {
+        System.out.println("UPI payment");
+    }
+}
